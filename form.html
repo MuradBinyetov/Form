@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css">
+    <style>
+        header {
+            width: 100%;
+            padding: 1%;
+            color: #D6D9D7;
+            font-size: 20px;
+        }
+
+        main {
+            width: 40%;
+            margin: auto;
+            background-image: linear-gradient(#1C0D0A, #4D4D65, #1C0D0A);
+        }
+
+        form .input label i {
+            margin-left: -150px;
+        }
+
+        fieldset legend {
+            text-align: center;
+        }
+
+        ._input {
+            margin-bottom: 2%;
+            position: relative;
+        }
+
+        span {
+            position: absolute;
+        }
+
+        ._input ::placeholder {
+            font-size: 12px;
+        }
+
+        fieldset form ._submit {
+            width: 100%;
+            font-size: 21px;
+            border: 0;
+            border-radius: 3px;
+            background-color: #12A751;
+        }
+
+        fieldset form ._submit button {
+            width: 100%;
+            font-size: 16px;
+            border: 0;
+            border-radius: 3px;
+            background-color: #12A751;
+        }
+
+        fieldset form input[type="submit"] {
+            padding: 11px;
+            margin-left: 45%;
+        }
+
+        fieldset form input[type="text"],
+        fieldset form input[type="password"] {
+            width: 90%;
+            margin-top: 1%;
+            border-radius: 5px;
+            border: 0;
+            font-size: 125%;
+
+            background-color: #030100;
+            opacity: 0.7;
+            color: grey;
+        }
+
+        fieldset form ._input i {
+            color: #12A751;
+
+        }
+
+        ::placeholder {
+            text-align: left;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: #D6D9D7;
+        }
+
+        fieldset form input[type="checkbox"],
+        fieldset form.checkbox p {
+            display: inline-block;
+
+        }
+
+        fieldset form .social .facebook,
+        .twitter {
+            display: inline-block;
+            color: white;
+
+        }
+
+        fieldset form .social {
+            margin-top: 20px;
+            color: white;
+        }
+
+        fieldset form .social .first {
+            background-color: #4267b2
+        }
+
+        fieldset form .social .second {
+            background-color: #38A1F3;
+            margin-left: 35%;
+
+        }
+
+        fieldset form .social .first,
+        .second {
+            padding: 1%;
+            display: inline-block;
+        }
+
+        fieldset form .forgot a {
+            margin-left: 260px;
+            color: #D6D9D7
+        }
+
+        ._checkbox,
+        .forgot {
+            display: inline-block;
+        }
+
+        ._checkbox label {
+            color: #D6D9D7
+        }
+
+        footer {
+            padding: 10px;
+        }
+
+        footer .new-account,
+        .sign-up {
+            display: inline-block;
+        }
+
+        footer p {
+            display: inline;
+            color: #D6D9D7;
+
+
+        }
+
+        footer button {
+            display: inline;
+            width: 100%;
+            margin-left: 383%;
+            margin-top: 8px;
+            font-size: 20px;
+            border: 0;
+            border-radius: 3px;
+            background-color: #12A751;
+
+        }
+
+        fieldset form ._input span {
+            margin-left: -25px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <fieldset>
+            <header>
+                <legend>Sign in</legend>
+            </header>
+
+            <form>
+                <div class="_input">
+                    <i class="mdi mdi-account"></i>
+                    <input name="input" placeholder="User Name Or Email" type="text" id="user">
+                    <span><i class="mdi mdi-star-outline"></i></span>
+                    
+
+                </div>
+                <div class="_input">
+                    <i class="mdi mdi-lock"></i>
+                    <input name="input" placeholder="User Password" type="password">
+                    <span><i class="mdi mdi-star-outline"></i></span>
+
+                </div>
+                <div class="_submit">
+                    <button> <a href="#"><strong>LOGIN</strong></a> </button>
+                </div>
+                <div class="_checkbox">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <div class="forgot">
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <div class="social">
+                    <div class="first">
+                        <i class="mdi mdi-facebook"><a class="facebook" href="#">Login With Facebook</a></i> </div>
+                    <div class="second">
+                        <i class="mdi mdi-twitter"><a class="twitter" href="#">Login With Twitter</a></i>
+                    </div>
+                </div>
+
+
+            </form>
+        </fieldset>
+
+
+        <footer>
+            <div class="new-account">
+                <p>Need new account?</p>
+            </div>
+            <div class="sign-up">
+                <button> <a href="#">Sign up</a></button>
+            </div>
+
+        </footer>
+    </main>
+
+</body>
+
+</html>
